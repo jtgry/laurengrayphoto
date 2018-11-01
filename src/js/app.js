@@ -55,12 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
     load_delay: 200
   });
 
-  // Masonry
-  var elem = document.querySelector('.gallery');
-  var msnry = new Masonry( elem, {
-    // options
-    itemSelector: '.block-gallery-item',
-  });
+
 
   // Image Process
   var imgHires = document.getElementsByClassName('image-hires');
@@ -71,8 +66,18 @@ document.addEventListener("DOMContentLoaded", function() {
          addClass(imgHires[i], 'image-loaded');
       }
   }
+  imagesLoaded( document.querySelector('#page'), function( instance ) {
+    console.log('all images are loaded');
+      // Masonry
+    var elem = document.querySelector('.gallery');
+    var msnry = new Masonry( elem, {
+      // options
+      itemSelector: '.block-gallery-item',
+    });
+    baguetteBox.run('.gallery');
+  });
   // Image Process
 
-  baguetteBox.run('.gallery');
+
 
 });
