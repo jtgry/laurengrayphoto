@@ -12,13 +12,6 @@
 .text-center{
   text-align: center;
 }
-.hidden{
-  display: none;
-  z-index: -1;
-}
-.visible{
-  display: block;
-}
 .load{
   @include fadeIn(
     $delay: .1s
@@ -27,10 +20,18 @@
 }
 .exit{
   @include fadeOut(
-    $delay: .1s
+    $delay: 1s
   );
-
+  display: block;
 }
+.hidden{
+  display: none;
+  z-index: -1;
+}
+.visible{
+  display: block;
+}
+
 .fade-in{
   @include fadeIn(
     $delay: .8s
