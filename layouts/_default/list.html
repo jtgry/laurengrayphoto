@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+<section class="journal">
+  {{ range  where .Data.Pages "Section" "journal" }}
+    <article class="container">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ .Content }}
+    </article>
+  {{ end }}
+</section>
+  {{ template "_internal/pagination.html" . }}
+
+{{ end }}

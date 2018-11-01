@@ -1,0 +1,65 @@
+// Our variables
+$base-font-family: 'Lato', sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$alt-font-family: 'Lato', sans-serif;
+
+$header-font-family: 'Playfair Display', serif;
+
+$spacing-unit:     2rem;
+$color-brand-alt:  rgba(200, 226, 217, 1);
+$color-brand:      rgba(31, 88, 105, 1);
+$color-white:      rgba(252,252,252,1);
+$color-alt-one:    rgba(238, 249, 248, 1);
+$color-alt-two:    rgba(228, 233, 231, 1);
+$color-black:      rgba(51,51,51,.8);
+$color-off-white:  rgba(248,248,248,1);
+$color-transparent:rgba(0,0,0,0);
+$color-grey:       rgba(200,200,200,0.95);
+$color-grey-light: lighten($color-grey, 10%);
+$color-grey-dark:  darken($color-grey, 20%);
+
+$box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
+
+$height-bottom: 100;
+$height-middle: 200;
+$height-high: 300;
+$height-top: 1000;
+
+// Width of the content area
+$content-width:    780px;
+$phone:            400px;
+$tablet:           800px;
+$laptop:           1400px;
+$desktop:          1600px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import SCSS
+@import
+    "jeet/jeet.scss",
+    "animate/animate.scss",
+    "base",
+    "buttons",
+    "nav",
+    "header",
+    "page-header",
+    "layout",
+    "blocks",
+    "blocks/block-feature.scss",
+    "blocks/block-image.scss",
+    "blocks/block-session.scss",
+    "blocks/block-cta.scss",
+    "baguette",
+    "forms",
+    "footer",
+    "util"
+;

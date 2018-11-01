@@ -1,0 +1,23 @@
+
+<section class="block-container" alt="{{ .Params.heading }}">
+  <div class="block-image">
+    {{- with .Params.image -}}
+      <img src="{{ . }}" alt="">
+    {{ end }}
+  </div>
+  <div class="block-content">
+    <div class="vertical">
+      <div class="container">
+        {{- with .Params.heading -}}
+        <h2 class="block-feature-heading">{{ markdownify . }}</h2>
+        {{ end }}
+        {{- with .Params.content -}}
+        <p>{{ markdownify . }}</p>
+        {{- end -}}
+        {{- if and .Params.button_url .Params.button_text -}}
+        <a href="{{ .Params.button_url }}" class="button shadow"><span>{{ .Params.button_text }}</span></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

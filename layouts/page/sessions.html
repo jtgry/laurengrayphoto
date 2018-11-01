@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+<section class="block-container">
+  {{ range where .Data.Pages "Section" "photography" }}
+  {{ $image := (resources.Get .Params.image).Fill "800x500 smart" }}
+    <a href="{{ .URL }}" class="block-session">
+      <img src="{{ $image.RelPermalink }}" alt="">
+      <div class="block-session-overlay"></div>
+      <div class="block-session-content">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+    </a>
+  {{ end }}
+</section>
+  {{ template "_internal/pagination.html" . }}
+
+{{ end }}

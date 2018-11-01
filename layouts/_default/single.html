@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+  <article class="container">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    <div class="post-content">
+      {{ block "related" . }}{{ partial "site/related.html" . }}{{ end }}
+    </div>
+
+  </article>
+{{ end }}

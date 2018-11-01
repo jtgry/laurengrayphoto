@@ -1,0 +1,16 @@
+.block-session{
+  width: 100%;
+  box-shadow: $box-shadow;
+  border-radius: .5em;
+  @include column(1/3, $cycle: 3);
+  @media (max-width: $tablet) {
+    @include stack();
+  }
+  img{
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+  }
+  .block-session-content{
+    padding: $spacing-unit / 2;
+  }
+}

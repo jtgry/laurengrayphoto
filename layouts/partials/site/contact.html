@@ -1,0 +1,24 @@
+<section>
+  <img src="/images/header-bottom-alt.svg" alt="" class="contact-top">
+  <div class="contact-form">
+    <div class="container">
+      <h2>Ready to schedule your session?</h2>
+      <form method="post" action="/thanks/" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+        <label class="hidden">Don’t fill this out: <input name="bot-field"></label>
+        <div class="form-group">
+          <label class="form-label">What's your name?</label>
+          <input type="text" class="form-control" name="name" id="name" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">How about an Email Address?</label>
+          <input type="text" class="form-control" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" >Message</label>
+          <textarea class="form-control" name="message"></textarea>
+        </div>
+        <button class="button shadow" type="submit" value="send"><span>Submit</span></button>
+      </form>
+    </div>
+  </div>  
+</section>

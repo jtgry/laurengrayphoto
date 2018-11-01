@@ -1,0 +1,17 @@
+{{ $related := .Site.Pages.Related . | first 5 }}
+{{ with $related }}
+<h3>See Also</h3>
+{{ range . }}
+<div class="block-news-item">
+  <small></small>
+  <a href="{{ .Permalink }}">
+    {{ $image := (resources.Get .Params.image).Fill "500x300 smart" }}
+    {{ $imagesmall := $image.Resize "100x q25" }}
+    <img class="lazyload" src="{{ $imagesmall.RelPermalink }}" data-src="{{ $image.RelPermalink }}" alt="">
+  </a>
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  {{ .Content }}
+</div>
+{{ end }}
+
+{{ end }}

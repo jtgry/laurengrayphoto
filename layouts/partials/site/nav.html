@@ -1,0 +1,30 @@
+<nav>
+  <div class="vertical">
+    <div class="nav-title">
+      <a href="{{ .Site.BaseURL }}"><img src="/images/logo-badge.svg" alt=""></a>
+    </div>
+    <div class="nav-items">
+      <ul>
+      {{ range .Site.Menus.main.ByWeight }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+      </ul>
+      <a href="#" class="nav-button" id="navButton">
+        <span class="burger-icon"></span>
+      </a>
+    </div>
+  </div>
+</nav>
+<nav id="mobile-nav" class="mobile-nav hidden">
+    <div class="mobile-nav-items">
+      <ul class=vertical>
+        {{ range .Site.Menus.main.ByWeight }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>

@@ -1,0 +1,37 @@
+.block-container{
+  height: 100%;
+  width: 94%;
+  padding: 0 3%;
+  display: table;
+  margin-bottom: $spacing-unit * 2;
+  @media (max-width: $tablet) {
+    margin: none;
+  }
+}
+
+.block-gallery-item{
+
+  a{
+    box-shadow: $box-shadow;
+    margin-bottom: $spacing-unit * 1.2;
+    display: block;
+    will-change: transform,filter;
+    transform-style: preserve-3d;
+    transition: all .2s ease-out;
+    border-radius: .5em;
+    &:hover{
+      transform: scale(1.01);
+      box-shadow: $box-shadow-alt;
+    }
+    img{
+      min-width: 100%;
+      width: auto;
+      border-radius: .5em;
+    }
+  }
+  @include column(1/4, $cycle: 4);
+  @media (max-width: $tablet) {
+    @include column(1/2, $cycle: 2);
+
+  }
+}

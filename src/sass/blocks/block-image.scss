@@ -1,0 +1,47 @@
+.block-container:nth-child(even){
+  .block-image{
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.block-image{
+  height: auto;
+  margin-bottom: $spacing-unit / 2;
+
+  @include column(3/5);
+  @media (max-width: $tablet) {
+    @include stack();
+  }
+  img{
+    box-shadow: $box-shadow-alt;
+    border-radius: .5em;
+  }
+}
+
+.block-content{
+  display: table;
+  max-width: $content-width;
+  margin: 0 auto;
+  @include column(2/5);
+  h2{
+    margin-bottom: $spacing-unit / 2;
+  }
+  p{
+    margin-bottom: $spacing-unit / 1;
+
+  }
+  button, a.button{
+    margin: 0;
+  }
+  @media (max-width: $tablet) {
+    h2{
+      font-size: 2.5rem;
+    }
+    @include stack();
+    .container{
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

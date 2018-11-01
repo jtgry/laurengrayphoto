@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+<section class="block-container">
+<div class="gallery">
+    {{- if .Params.gallery -}}
+      {{ range .Params.gallery }}
+      {{ $imageSmall := (resources.Get .).Fill "600x400"  }}
+      {{ $imageLarge := (resources.Get .).Resize "2000x" }}
+      <div class="block-gallery-item">
+        <a href="{{ $imageLarge.RelPermalink }}">
+          <img src="{{ $imageSmall.RelPermalink }}">
+        </a>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

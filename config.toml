@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Lauren Gray Photography"
+
+enableRobotsTXT = true
+disableAliases = true
+
+assetDir= "static"
+
+[params]
+disallow_search_engines = false # set robots.txt to disallow everything
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "/about/"
+
+[[menu.main]]
+  name = "Booking"
+  weight = 2
+  url = "/booking/"
+
+[[menu.main]]
+  name = "Photography"
+  weight = 3
+  url = "/photography/"
+
+  [[menu.main]]
+  name = "Journal"
+  weight = 5
+  url = "/journal/"
+
+[related]
+threshold = 80
+includeNewer = true
+toLower = false
+[[related.indices]]
+name = "title"
+weight = 100
+[[related.indices]]
+name = "category"
+weight = 100
+[[related.indices]]
+name  = "date"
+weight = 10
+pattern = "2006"

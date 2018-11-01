@@ -1,0 +1,23 @@
+
+<section class="block-container" alt="{{ .Params.heading }}">
+  {{ $image := (resources.Get .Params.image).Fill "2000x1168 smart" }}
+  <div class="block-cta" style="background-image:url({{ $image.RelPermalink }});">
+    <div class="block-cta-overlay"></div>
+      <div class="vertical">
+        <div class="container">
+          <div class="block-cta-content">
+            {{- with .Params.heading -}}
+            <h2 class="block-feature-heading">{{ markdownify . }}</h2>
+            {{ end }}
+            {{- with .Params.content -}}
+            <p>{{ markdownify . }}</p>
+            {{- end -}}
+            {{- if and .Params.button_url .Params.button_text -}}
+            <a href="{{ .Params.button_url }}" class="button shadow"><span>{{ .Params.button_text }}</span></a>
+          {{ end }}
+          </div>
+        </div>
+      </div>
+  </div>
+
+</section>

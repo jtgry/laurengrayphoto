@@ -1,0 +1,16 @@
+{{ if .Params.image }}
+{{ $image := (resources.Get .Params.image).Fill "2000x1168 smart" }}
+<header class="page-header" style="background-image:url({{ $image.RelPermalink }});">
+{{ else }}
+<header class="page-header">
+{{ end }}
+  <div class="page-header-overlay"></div>
+  <div class="vertical">
+    <div class="page-header-content">
+      {{ with .Title }}
+        <h1>{{ . }}</h1>
+      {{ end }}
+    </div>
+  </div>
+</header>
+<img src="/images/header-bottom.svg" alt="" class="site-header-bottom">
