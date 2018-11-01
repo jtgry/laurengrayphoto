@@ -13,6 +13,13 @@ function removeClass(ele,cls) {
   }
 }
 
+// Masonry
+var elem = document.querySelector('.gallery');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.block-gallery-item',
+});
+
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('page').className = "load";
 
@@ -55,12 +62,6 @@ document.addEventListener("DOMContentLoaded", function() {
     load_delay: 200
   });
 
-  // Masonry
-  var elem = document.querySelector('.gallery');
-  var msnry = new Masonry( elem, {
-    // options
-    itemSelector: '.block-gallery-item',
-  });
 
   // Image Process
   var imgHires = document.getElementsByClassName('image-hires');
