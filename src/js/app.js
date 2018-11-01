@@ -50,10 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
     
-  var myLazyLoad = new LazyLoad({
-    elements_selector: ".lazyload",
-    load_delay: 200
-  });
+
 
 
 
@@ -75,6 +72,11 @@ document.addEventListener("DOMContentLoaded", function() {
       itemSelector: '.block-gallery-item',
     });
     baguetteBox.run('.gallery');
+
+    var myLazyLoad = new LazyLoad({
+      elements_selector: ".lazyload",
+      load_delay: 300
+    });
   });
   // Image Process
 

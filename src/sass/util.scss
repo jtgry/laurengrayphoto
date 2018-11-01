@@ -64,7 +64,7 @@
   transition: opacity .5s linear;
 }
 .lazyload:not(.loaded) {
-    opacity: .5;
+    opacity: .8;
     filter: blur(6px);
     -webkit-filter: blur(6px);
     transition: -webkit-filter 0s 0.3s linear, filter 0s 0.3s linear;

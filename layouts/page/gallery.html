@@ -6,9 +6,10 @@
       {{ range .Params.gallery }}
       {{ $imageSmall := (resources.Get .).Resize "600x"  }}
       {{ $imageLarge := (resources.Get .).Resize "2000x" }}
+      {{ $imageThumbnail := $imageSmall.Resize "100x q25" }}
       <div class="block-gallery-item">
         <a class="block-gallery-item-image" href="{{ $imageLarge.RelPermalink }}">
-          <img src="{{ $imageSmall.RelPermalink }}">
+          <img class="lazyload" src="{{ $imageThumbnail.RelPermalink }}" data-src="{{ $imageSmall.RelPermalink }}" alt="">
         </a>
       </div>
       {{ end }}
