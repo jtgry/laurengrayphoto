@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
     sr.reveal('.block-image', {origin: 'bottom', duration: 800});
     sr.reveal('.block-content', {origin: 'bottom', duration: 600});
     sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
-
+    sr.reveal('.block-cta', {origin: 'bottom', duration: 600});
+    sr.reveal('.contact-form', {origin: 'bottom', duration: 600});
     //Menu
     sr.reveal('.block-gallery-item', {origin: 'bottom', duration: 600 }, 200);
     var menuButton = document.getElementById('navButton');
