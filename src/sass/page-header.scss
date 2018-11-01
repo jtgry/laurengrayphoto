@@ -11,6 +11,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  @include fadeIn(
+    $delay: 1s
+  );
+  @media (max-width: $tablet) {
+  background-attachment: scroll; 
+  }
   .page-header-overlay{
     width: 100%;
     height: 60vh;

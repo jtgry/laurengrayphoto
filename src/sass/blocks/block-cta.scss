@@ -19,7 +19,7 @@
     height: 60vh;
     position: absolute;
     background: $color-brand-alt;
-    background: linear-gradient(to left, $color-brand-alt, $color-white);
+    background: linear-gradient(to right, $color-white 30%, $color-alt-one 50%);
     opacity: .8;
     border-radius: .5em;
   }

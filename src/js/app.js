@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
     viewFactor: 0.4
   });
     
-    sr.reveal('.block-image', {origin: 'bottom', duration: 800});
+    sr.reveal('.block-image', {origin: 'bottom', delay: 1.2, duration: 800});
     sr.reveal('.block-content', {origin: 'bottom', duration: 600});
     sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
     sr.reveal('.block-cta', {origin: 'bottom', duration: 600});
     sr.reveal('.contact-form', {origin: 'bottom', duration: 600});
     //Menu
-    sr.reveal('.block-gallery-item', {origin: 'bottom', duration: 600 }, 200);
+ 
     var menuButton = document.getElementById('navButton');
     var mobileNav = document.getElementById('mobile-nav');
     menuButton.addEventListener('click', function (e) {
@@ -54,6 +54,14 @@ document.addEventListener("DOMContentLoaded", function() {
     elements_selector: ".lazyload",
     load_delay: 200
   });
+
+  // Masonry
+  var elem = document.querySelector('.gallery');
+  var msnry = new Masonry( elem, {
+    // options
+    itemSelector: '.block-gallery-item',
+  });
+
   // Image Process
   var imgHires = document.getElementsByClassName('image-hires');
   for (var i=0; i<imgHires.length; i++) {

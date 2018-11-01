@@ -8,12 +8,15 @@
     margin: none;
   }
 }
-
-.block-gallery-item{
-
+.gallery{
+  width: 100%;
+  margin: 0 auto;
+}
+.block-gallery-item{  
+  width: 48%;
+  margin: 1%;
   a{
     box-shadow: $box-shadow;
-    margin-bottom: $spacing-unit * 1.2;
     display: block;
     will-change: transform,filter;
     transform-style: preserve-3d;
@@ -24,14 +27,9 @@
       box-shadow: $box-shadow-alt;
     }
     img{
-      min-width: 100%;
-      width: auto;
       border-radius: .5em;
+      min-width: 100%;
+      height: auto;
     }
-  }
-  @include column(1/4, $cycle: 4);
-  @media (max-width: $tablet) {
-    @include column(1/2, $cycle: 2);
-
   }
 }

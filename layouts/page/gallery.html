@@ -4,10 +4,10 @@
 <div class="gallery">
     {{- if .Params.gallery -}}
       {{ range .Params.gallery }}
-      {{ $imageSmall := (resources.Get .).Fill "600x400"  }}
+      {{ $imageSmall := (resources.Get .).Resize "600x"  }}
       {{ $imageLarge := (resources.Get .).Resize "2000x" }}
       <div class="block-gallery-item">
-        <a href="{{ $imageLarge.RelPermalink }}">
+        <a class="block-gallery-item-image" href="{{ $imageLarge.RelPermalink }}">
           <img src="{{ $imageSmall.RelPermalink }}">
         </a>
       </div>

@@ -48,7 +48,7 @@
             afterShow: null,
             afterHide: null,
             onChange: null,
-            overlayBackgroundColor: 'rgba(0,0,0,.8)'
+            overlayBackgroundColor: 'rgba(255,255,255,.9)'
         };
     // Object containing information about features compatibility
     var supports = {};
