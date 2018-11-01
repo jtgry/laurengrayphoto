@@ -39,14 +39,14 @@ notAlternative = true
   url = "/about/"
 
 [[menu.main]]
-  name = "Booking"
+  name = "Inquiries"
   weight = 2
-  url = "/booking/"
+  url = "/inquiries/"
 
 [[menu.main]]
-  name = "Photography"
+  name = "Portfolio"
   weight = 3
-  url = "/photography/"
+  url = "/portfolio/"
 
   [[menu.main]]
   name = "Journal"

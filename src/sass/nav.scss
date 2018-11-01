@@ -90,6 +90,13 @@ a.nav-button {
 .mobile-nav-items ul{
   width: 100vw;
   height: 100vh;
+  @for $i from 1 through 10 {
+    :nth-child(#{$i}n) {
+      @include fadeInLeft(
+        $delay: #{$i * 0.3}s,
+      );
+    }
+  }
 }
 .mobile-nav-items a{
   font-weight: 700;
