@@ -1,0 +1,46 @@
+---
+label: Home
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: button_url
+  label: Button url
+  type: text
+  hidden: false
+  default: ''
+- name: button_text
+  label: Button text
+  type: text
+  hidden: false
+  default: ''
+- name: blocks
+  label: Blocks
+  type: field_group_list
+  fields:
+  - name: template
+    label: Template
+    type: text
+    hidden: false
+    default: ''
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: content
+    label: Content
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
