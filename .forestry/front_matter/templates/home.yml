@@ -30,3 +30,5 @@ fields:
   - block-cta
   - block-feature
   - block-image
+pages:
+- content/_index.md
