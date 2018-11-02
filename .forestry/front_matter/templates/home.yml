@@ -1,7 +1,7 @@
 ---
 label: Home
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -23,24 +23,10 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: blocks
+- type: blocks
+  name: blocks
   label: Blocks
-  type: field_group_list
-  fields:
-  - name: template
-    label: Template
-    type: text
-    hidden: false
-    default: ''
-  - name: heading
-    label: Heading
-    type: text
-    hidden: false
-    default: ''
-  - name: content
-    label: Content
-    type: textarea
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
+  template_types:
+  - block-cta
+  - block-feature
+  - block-image
