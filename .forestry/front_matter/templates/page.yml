@@ -9,3 +9,6 @@ fields:
 - type: datetime
   name: date
   label: Date
+- type: file
+  name: image
+  label: Image
