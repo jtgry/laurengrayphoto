@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var myFunction = function(){
           addClass(mobileNav, 'hidden');
         };
-        setTimeout(myFunction, 2000);
+        setTimeout(myFunction, 1000);
         
       } else {
         removeClass(mobileNav, 'exit');
