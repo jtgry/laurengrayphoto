@@ -1,0 +1,20 @@
+---
+label: Block Image
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  label: Content
+  name: content
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: button_text
+  label: Button Text
+- type: text
+  name: button_url
+  label: Button URL
