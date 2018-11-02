@@ -1,5 +1,5 @@
 ---
-title: 
+title: Home
 image: "/uploads/header.jpg"
 button_url: /test/
 button_text: Learn More
