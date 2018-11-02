@@ -37,9 +37,9 @@
       max-height: 100%;
       max-width: 100%;
       vertical-align: middle;
-      -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-         -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-              box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
+      -webkit-box-shadow: $box-shadow-alt;
+         -moz-box-shadow: $box-shadow-alt;
+              box-shadow: $box-shadow-alt;}
     #baguetteBox-overlay .full-image figcaption {
       display: block;
       position: absolute;
@@ -124,14 +124,15 @@
   border: 0;
   -moz-border-radius: 15%;
        border-radius: 15%;
-  background-color: #323232;
-  background-color: rgba(50, 50, 50, 0.5);
+  background: none;
+  background-color: none;
+  box-shadow: none;
   color: #ddd;
   font: 1.6em sans-serif;
   -webkit-transition: background-color .4s ease;
   transition: background-color .4s ease; }
   .baguetteBox-button:focus, .baguetteBox-button:hover {
-    background-color: rgba(50, 50, 50, 0.9); }
+    background-color: none; }
   .baguetteBox-button#next-button {
     right: 2%; }
   .baguetteBox-button#previous-button {
