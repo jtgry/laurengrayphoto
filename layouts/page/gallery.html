@@ -4,7 +4,7 @@
 <div class="gallery">
     {{- if .Params.gallery -}}
       {{ range .Params.gallery }}
-      {{ $imageSmall := (resources.Get .).Resize "600x"  }}
+      {{ $imageSmall := (resources.Get .).Resize "1000x"  }}
       {{ $imageLarge := (resources.Get .).Resize "2000x" }}
       {{ $imageThumbnail := $imageSmall.Resize "100x q25" }}
       <div class="block-gallery-item">
