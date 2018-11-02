@@ -1,6 +1,6 @@
 ---
 title: Home
-image: "/uploads/header.jpg"
+image: "/uploads/lauren.jpg"
 button_url: "/test/"
 button_text: Learn More
 blocks:
