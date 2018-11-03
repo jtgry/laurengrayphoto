@@ -5,7 +5,7 @@
 {{- if eq .template "block-feature" -}}{{ partial "blocks/block-feature" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-cta" -}}{{ partial "blocks/block-cta" (dict "Params" .) }}{{- end -}}
-{{- if eq .template "block-feature-items" -}}{{ partial "blocks/block-feature-items" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-showcase" -}}{{ partial "blocks/block-showcase" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
 {{ end }}

@@ -1,0 +1,35 @@
+<section class="block-container">
+  <div class="block-showcase">
+    <div class="block-showcase-content">
+      {{ with .Params.heading }}
+      <h2 class="block-feature-heading">{{ markdownify . }}</h2>
+      <hr />
+      {{ end }}
+      {{- with .Params.content -}}
+        <p>{{ markdownify . }}</p>
+      {{- end -}}
+    </div>
+      {{- if .Params.items -}}
+        {{ range .Params.items }}
+        {{ $imageSmall := (resources.Get .image).Fill "600x300"  }}
+        {{ $imageThumbnail := $imageSmall.Resize "100x q25" }}
+        <div class="block-showcase-item">
+          {{ if .image }}
+            <img class="lazyload" src="{{ $imageThumbnail.RelPermalink }}" data-src="{{ $imageSmall.RelPermalink }}" alt="">
+          {{ end }}
+          <div class="block-showcase-item-content">
+            {{ with .heading }}
+              <h3>{{ markdownify . }}</h3>
+            {{ end }}
+            {{- with .content -}}
+              <p>{{ markdownify . }}</p>
+            {{- end -}}
+            {{- if and .button_url .button_text -}}
+              <a href="{{ .button_url }}" class="button shadow"><span>{{ .button_text }}</span></a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>

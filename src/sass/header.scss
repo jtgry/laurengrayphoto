@@ -47,11 +47,10 @@
       h2{
         font-size: 2rem;
         letter-spacing: .6em;
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit / 2;
         color: $color-brand;
         font-family: $alt-font-family;
         text-transform: uppercase;
-        margin-bottom: $spacing-unit / 3;
         @include fadeIn(
           $delay: 1.4s,
           $duration: 1s
