@@ -18,15 +18,15 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
-  heading: Families
+  heading: Kids & Families
   image: "/uploads/_DSC0186.jpg"
   content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
     special moments so that you can cherish them forever.
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
-  heading: Modern Web
-  image: "/uploads/header.jpg"
+  heading: Business
+  image: "/uploads/_DSC0786.jpg"
   content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
     special moments so that you can cherish them forever.
   button_url: "/test/"
