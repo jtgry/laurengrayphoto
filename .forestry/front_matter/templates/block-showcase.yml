@@ -13,3 +13,5 @@ fields:
 - type: blocks
   name: items
   label: Items
+  template_types:
+  - block-item
