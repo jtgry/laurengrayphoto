@@ -20,8 +20,9 @@ blocks:
 - template: block-image
   heading: Kids & Families
   image: "/uploads/_DSC0186.jpg"
-  content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-    special moments so that you can cherish them forever.
+  content: 'Each family member is unique. I love capturing the individual personalities
+    of each family as they enjoy time together! I want to capture YOU, being the amazing
+    family that you are! '
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
