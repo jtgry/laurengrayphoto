@@ -33,10 +33,11 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-cta
-  heading: Modern Web
-  image: "/uploads/header.jpg"
-  content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-    special moments so that you can cherish them forever.
+  heading: Capturing Moments
+  image: "/uploads/_DSC1144-2.jpg"
+  content: My true passion isn't for photography. My passion is for capturing the
+    special moments in your life so that you can experience that joy them for years
+    to come
   button_url: "/test/"
   button_text: Learn More
 - template: block-showcase
