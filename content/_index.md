@@ -26,8 +26,8 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
-  heading: Business
-  image: "/uploads/_DSC0786.jpg"
+  heading: Lifestyle
+  image: "/uploads/DSC_0743.jpg"
   content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
     special moments so that you can cherish them forever.
   button_url: "/test/"
