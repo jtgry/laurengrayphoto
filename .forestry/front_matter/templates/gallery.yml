@@ -9,3 +9,5 @@ fields:
 - type: image_gallery
   label: Gallery
   name: gallery
+pages:
+- content/portfolio/_index.md
