@@ -10,9 +10,11 @@ fields:
   name: type
   label: Type
   default: page
+  hidden: true
 - type: text
   name: layout
   label: Layout
+  hidden: true
 - type: image_gallery
   label: Gallery
   name: gallery
