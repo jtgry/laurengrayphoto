@@ -6,6 +6,13 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: type
+  label: Type
+  default: page
+- type: text
+  name: layout
+  label: Layout
 - type: image_gallery
   label: Gallery
   name: gallery
