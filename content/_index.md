@@ -35,7 +35,7 @@ blocks:
   button_text: Learn More
 - template: block-cta
   heading: Capturing Moments
-  image: "/uploads/_DSC1144-2.jpg"
+  image: "/uploads/_DSC1144-2-2.jpg"
   content: My true passion isn't for photography. My passion is for capturing the
     special moments in your life so that you can experience that joy them for years
     to come
