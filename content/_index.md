@@ -27,9 +27,10 @@ blocks:
   button_text: Learn More
 - template: block-image
   heading: Lifestyle
-  image: "/uploads/DSC_0743.jpg"
-  content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-    special moments so that you can cherish them forever.
+  image: "/uploads/_DSC0851.jpg"
+  content: 'Do you have a special event coming up? In need of photos to market your
+    business? Just want to capture your everyday life? I would love to help with whatever
+    YOU need! '
   button_url: "/test/"
   button_text: Learn More
 - template: block-cta
