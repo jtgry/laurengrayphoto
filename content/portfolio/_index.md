@@ -4,6 +4,7 @@ image: "/uploads/grace-2.jpg"
 type: page
 layout: gallery
 gallery:
+<<<<<<< HEAD
 - "/uploads/DSC_0796.jpg"
 - "/uploads/DSC_0744.jpg"
 - "/uploads/DSC_0743-1.jpg"
@@ -26,5 +27,25 @@ gallery:
 - "/uploads/_DSC0892.jpg"
 - "/uploads/_DSC0408-1.jpg"
 - "/uploads/_DSC0186.jpg"
+=======
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+- "/uploads/grace-2.jpg"
+- "/uploads/header.jpg"
+- "/uploads/grace-3.jpg"
+>>>>>>> parent of 7b4f90b... Update _index.md
 
 ---
