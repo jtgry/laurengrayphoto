@@ -1,4 +1,5 @@
 ---
 title: Journal
-image: "/uploads/header.jpg"
+image: "/uploads/_DSC1173-2.jpg"
+
 ---
