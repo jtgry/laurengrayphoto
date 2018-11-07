@@ -4,6 +4,12 @@ image: "/uploads/grace-2.jpg"
 type: page
 layout: gallery
 gallery:
+- "/uploads/DSC_0796.jpg"
+- "/uploads/DSC_0744.jpg"
+- "/uploads/DSC_0743-1.jpg"
+- "/uploads/DSC_0680.jpg"
+- "/uploads/DSC_0646.jpg"
+- "/uploads/DSC_0481.jpg"
 - "/uploads/_DSC0234.jpg"
 - "/uploads/_DSC0324.jpg"
 - "/uploads/_DSC0318.jpg"
@@ -18,8 +24,6 @@ gallery:
 - "/uploads/_DSC1173-1.jpg"
 - "/uploads/_DSC0917.jpg"
 - "/uploads/_DSC0892.jpg"
-- "/uploads/_DSC0927-1.jpg"
-- "/uploads/_DSC0531-2.jpg"
 - "/uploads/_DSC0408-1.jpg"
 - "/uploads/_DSC0186.jpg"
 
