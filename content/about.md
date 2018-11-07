@@ -1,6 +1,6 @@
 ---
 title: About
-image: "/uploads/_DSC0953.jpg"
+image: "/uploads/_DSC0953-2.jpg"
 date: ''
 
 ---
