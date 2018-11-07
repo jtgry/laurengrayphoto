@@ -26,7 +26,7 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
-  heading: Lifestyle
+  heading: Business & Events
   image: "/uploads/_DSC0851.jpg"
   content: 'Do you have a special event coming up? In need of photos to market your
     business? Just want to capture your everyday life? I would love to help with whatever
