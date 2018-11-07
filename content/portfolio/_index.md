@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-image: "/uploads/grace-2.jpg"
+image: "/uploads/DSC_0742.jpg"
 type: page
 layout: gallery
 gallery:
