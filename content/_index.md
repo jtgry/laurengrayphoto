@@ -26,11 +26,12 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
-  heading: Business & Events
-  image: "/uploads/_DSC0851.jpg"
-  content: 'Do you have a special event coming up? In need of photos to market your
-    business? Just want to capture your everyday life? I would love to help with whatever
-    YOU need! '
+  heading: Lifestyle
+  image: "/uploads/_DSC1144-2-2.jpg"
+  content: 'There are these moments in life; Moments that are so fleeting and so precious.
+    We want to capture them in our hearts forever and never let them go. I want to
+    help you capture your precious moments, and help you cherish that time in your
+    life for years and years to come. '
   button_url: "/test/"
   button_text: Learn More
 - template: block-cta
