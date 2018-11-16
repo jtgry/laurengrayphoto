@@ -36,7 +36,7 @@ blocks:
   button_text: Learn More
 - template: block-cta
   heading: 'Moments '
-  image: "/uploads/_DSC0953-2.jpg"
+  image: "/uploads/_DSC0204.jpg"
   content: 'Time is fleeting, photos are not. '
   button_url: "/test/"
   button_text: Learn More
