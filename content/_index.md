@@ -37,7 +37,8 @@ blocks:
 - template: block-cta
   heading: 'Moments '
   image: "/uploads/_DSC0204.jpg"
-  content: 'Time is fleeting, photos are not. '
+  content: 'Time is fleeting, photos are not. Take the time to capture your life as
+    it is right now. There may be a time that you look back and wish you had. '
   button_url: "/test/"
   button_text: Learn More
 - template: block-showcase
