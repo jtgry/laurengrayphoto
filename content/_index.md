@@ -35,11 +35,10 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-cta
-  heading: 'Little Moments '
+  heading: ''
   image: "/uploads/_DSC0204.jpg"
-  content: 'Time is fleeting, photos are not. Take the time to capture your life as
-    it is right now, even if it is messy. There may be a time that you look back and
-    wish you had. '
+  content: '"There is one thing the photograph must contain, the humanity of the moment."
+    -Robert Frank'
   button_url: "/test/"
   button_text: Learn More
 - template: block-showcase
@@ -70,3 +69,4 @@ blocks:
     button_text: Learn More
 
 ---
+Time is fleeting, photos are not. Take the time to capture your life as it is right now, even if it is messy. There may be a time that you look back and wish you had.
