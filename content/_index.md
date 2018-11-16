@@ -35,11 +35,9 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-cta
-  heading: 'Lifestyle Photography '
-  image: "/uploads/_DSC1144-2-2.jpg"
-  content: My true passion isn't just for photography. My passion is for capturing
-    the special moments in your life so that you can experience the same joy for years
-    to come!
+  heading: 'Moments '
+  image: "/uploads/_DSC0953-2.jpg"
+  content: 'Time is fleeting, photos are not. '
   button_url: "/test/"
   button_text: Learn More
 - template: block-showcase
