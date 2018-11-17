@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     sr.reveal('.block-content', {origin: 'bottom', duration: 600});
     sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
     sr.reveal('.block-cta', {origin: 'bottom', duration: 600});
-    sr.reveal('.contact-form', {origin: 'bottom', duration: 600});
+    sr.reveal('.block-section', {origin: 'bottom', duration: 600});
     //Menu
  
     var menuButton = document.getElementById('navButton');

@@ -1,6 +1,7 @@
 ---
 title: Home
 image: "/uploads/lauren.jpg"
+intro: "Ready to start growing your business or organization?"
 button_url: "/test/"
 button_text: Learn More
 blocks:
@@ -36,7 +37,7 @@ blocks:
   button_text: Learn More
 - template: block-cta
   heading: ''
-  image: "/uploads/_DSC0204.jpg"
+  image: "/uploads/_DSC0407.jpg"
   content: '"There is one thing the photograph must contain, the humanity of the moment."
     -Robert Frank'
   button_url: "/test/"
