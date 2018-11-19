@@ -42,31 +42,5 @@ blocks:
     -Robert Frank'
   button_url: "/test/"
   button_text: Learn More
-- template: block-showcase
-  heading: Hello There!
-  content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-    special moments so that you can cherish them forever.
-  items:
-  - template: block-item
-    heading: An Awesome Item
-    content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-      special moments so that you can cherish them forever.
-    image: "/uploads/header.jpg"
-    button_url: "/test/"
-    button_text: Learn More
-  - template: block-item
-    heading: An Awesome Item
-    content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-      special moments so that you can cherish them forever.
-    image: "/uploads/header.jpg"
-    button_url: "/test/"
-    button_text: Learn More
-  - template: block-item
-    heading: An Awesome Item
-    content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
-      special moments so that you can cherish them forever.
-    image: "/uploads/header.jpg"
-    button_url: "/test/"
-    button_text: Learn More
 
 ---
