@@ -37,7 +37,7 @@ blocks:
   button_text: Learn More
 - template: block-cta
   heading: ''
-  image: "/uploads/_DSC0407.jpg"
+  image: "/uploads/DSC_0361.jpg"
   content: '"There is one thing the photograph must contain, the humanity of the moment."
     -Robert Frank'
   button_url: "/test/"
