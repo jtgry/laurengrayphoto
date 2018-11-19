@@ -38,8 +38,9 @@ blocks:
 - template: block-cta
   heading: 'Business '
   image: "/uploads/_DSC0786.jpg"
-  content: '"There is one thing the photograph must contain, the humanity of the moment."
-    -Robert Frank'
+  content: Do you need new headshots to promote your business? Need photos of your
+    products for social media and promotion? Well I can help! Lets work together to
+    help your business grow and showcase all of the things that makes you great!
   button_url: "/test/"
   button_text: Learn More
 
