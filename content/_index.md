@@ -38,7 +38,7 @@ blocks:
 - template: block-cta
   heading: 'Business '
   image: "/uploads/_DSC0786-1.jpg"
-  content: Do you need new headshots to promote your business? Need photos of your
+  content: Do you need new headshots to market your business? Need photos of your
     products for social media and promotion? Well I can help! Lets work together to
     help your business grow and showcase all of the things that makes you great!
   button_url: "/test/"
