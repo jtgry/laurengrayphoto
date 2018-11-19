@@ -1,7 +1,7 @@
 ---
 title: Home
 image: "/uploads/lauren.jpg"
-intro: "Ready to start growing your business or organization?"
+intro: Ready to start growing your business or organization?
 button_url: "/test/"
 button_text: Learn More
 blocks:
