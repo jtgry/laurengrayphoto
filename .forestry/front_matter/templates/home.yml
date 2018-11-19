@@ -8,6 +8,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  default: ''
+  label: Intro
+  name: intro
 - name: image
   label: Image
   type: file
