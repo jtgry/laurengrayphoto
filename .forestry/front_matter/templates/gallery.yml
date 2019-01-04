@@ -3,23 +3,28 @@ label: Gallery
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: title
+- name: title
   label: Title
-- type: file
+  type: text
+  hidden: false
+  default: ''
+- name: image
   label: Image
-  name: image
-- type: text
-  name: type
+  type: file
+  hidden: false
+  default: ''
+- name: type
   label: Type
+  type: text
+  hidden: true
   default: page
-  hidden: true
-- type: text
-  name: layout
+- name: layout
   label: Layout
+  type: text
   hidden: true
-- type: image_gallery
+  default: gallery
+- name: gallery
   label: Gallery
-  name: gallery
-pages:
-- content/portfolio/_index.md
+  type: image_gallery
+  hidden: false
+  default: ''
