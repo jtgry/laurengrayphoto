@@ -21,6 +21,8 @@ sections:
   label: Journal
   create: all
   match: "**/*"
+  templates:
+  - gallery-7dd5227b-b779-4471-9c83-fb0bdd508f9f
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
