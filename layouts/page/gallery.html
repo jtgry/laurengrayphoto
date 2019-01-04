@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
 <section class="block-container">
-<div class="gallery">
+<div class="gallery fade-in-slow">
     {{- if .Params.gallery -}}
       {{ range .Params.gallery }}
       {{ $imageSmall := (resources.Get .).Resize "1000x"  }}
