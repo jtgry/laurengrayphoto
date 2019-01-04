@@ -14,6 +14,8 @@ sections:
   label: Portfolio
   create: all
   match: "**/*"
+  templates:
+  - gallery-7dd5227b-b779-4471-9c83-fb0bdd508f9f
 - type: directory
   path: content/journal
   label: Journal
