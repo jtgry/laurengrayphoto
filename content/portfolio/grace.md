@@ -1,6 +1,6 @@
 ---
 title: Portraits
-image: /uploads/header.jpg
+image: "/uploads/header.jpg"
 type: page
 layout: gallery
 gallery:
@@ -29,4 +29,5 @@ gallery:
 - "/uploads/_DSC1082-2.jpg"
 - "/uploads/DSC_0481-1.jpg"
 - "/uploads/DSC_0742.jpg"
+
 ---
