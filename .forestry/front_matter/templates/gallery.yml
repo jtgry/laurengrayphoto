@@ -30,5 +30,6 @@ fields:
   default: ''
 pages:
 - content/portfolio/grace.md
+- content/portfolio/business.md
 - content/portfolio/kids-and-families.md
 - content/portfolio/maternity-birth.md
