@@ -1,6 +1,7 @@
 ---
 title: Thank You
 image: "/uploads/DSC_0483.jpeg"
+image_alignment: top
 date: ''
 
 ---
