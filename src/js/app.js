@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
     
     sr.reveal('.block-image', {origin: 'bottom', delay: 1.2, duration: 800});
+    sr.reveal('.block-session', {origin: 'bottom', duration: 600}, 100);
     sr.reveal('.block-content', {origin: 'bottom', duration: 600});
     sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
     sr.reveal('.block-cta', {origin: 'bottom', duration: 600});

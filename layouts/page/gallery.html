@@ -16,5 +16,26 @@
     {{ end }}
   </div>
 </section>
-
+<section>
+  <div class="block-container">
+  {{ with .NextInSection }}
+    {{ $nextimage := (resources.Get .Params.image).Fill "1000x600 smart"  }}
+    <a class="read-next" href="{{ .Permalink }}">
+      <img src="{{ $nextimage.RelPermalink }}" alt="">
+      <div class="read-next-content">
+        <h3>{{ .Title }}</h3>
+      </div>
+    </a>
+  {{ end }}
+  {{ with .PrevInSection }}
+  {{ $previmage := (resources.Get .Params.image).Fill "1000x600 smart" }}
+    <a class="read-next" href="{{ .Permalink }}">
+      <img src="{{ $previmage.RelPermalink }}" alt="">
+      <div class="read-next-content">
+        <h3>{{ .Title }}</h3>
+      </div>
+    </a>
+  {{ end }}
+  </div>
+</section>
 {{ end }}
