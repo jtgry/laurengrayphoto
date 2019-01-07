@@ -17,12 +17,12 @@ fields:
   label: Type
   type: text
   hidden: true
-  default: ''
+  default: page
 - name: layout
   label: Layout
   type: text
   hidden: true
-  default: ''
+  default: gallery
 - name: gallery
   label: Gallery
   type: image_gallery
