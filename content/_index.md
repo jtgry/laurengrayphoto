@@ -27,6 +27,12 @@ blocks:
   button_url: "/test/"
   button_text: Learn More
 - template: block-image
+  heading: Business
+  content: Do you need new headshots to market your business? Need photos of your
+    products for social media and promotion? Well I can help! Lets work together to
+    help your business grow and showcase all of the things that makes you great!
+  image: "/uploads/_DSC0851.jpg"
+- template: block-image
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
   content: 'There are these moments in life; Moments that are so fleeting and so precious.
