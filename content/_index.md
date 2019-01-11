@@ -2,7 +2,7 @@
 title: Home
 image: "/uploads/lauren.jpg"
 intro: Ready to schedule your session?
-button_url: "/test/"
+button_url: "/inquiries"
 button_text: Learn More
 blocks:
 - template: block-feature
