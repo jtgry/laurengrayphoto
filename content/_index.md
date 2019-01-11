@@ -24,8 +24,8 @@ blocks:
   content: 'Each family member is unique. I love capturing the individual personalities
     of each family as they enjoy time together! I want to capture YOU, being the amazing
     family that you are! '
-  button_url: "/test/"
-  button_text: Learn More
+  button_url: ''
+  button_text: ''
 - template: block-image
   heading: Business
   content: Do you need new headshots to market your business? Need photos of your
