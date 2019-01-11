@@ -35,6 +35,7 @@ blocks:
 - template: block-image
   heading: Maternity
   image: "/uploads/DSC_0481-1.jpg"
+  content: really cool stuff
 - template: block-image
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
