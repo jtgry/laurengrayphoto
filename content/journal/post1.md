@@ -1,5 +1,5 @@
 ---
-title: Savannah Brannen - Senior
+title: 'Savannah Brannen | Senior | Wetumpka, AL '
 image: "/uploads/DSC_0959-1.jpg"
 
 ---
