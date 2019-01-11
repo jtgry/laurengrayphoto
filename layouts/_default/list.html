@@ -1,12 +1,16 @@
 {{ define "main" }}
 {{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
 <section class="journal">
+	<div class="post-content">
   {{ range  where .Data.Pages "Section" "journal" }}
     <article class="container">
+    	{{ $image := (resources.Get .Params.image).Fill "1200x900 smart" }}
+    	<img src="{{ $image.RelPermalink }}">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ .Content }}
+      {{ .Summary }}
     </article>
   {{ end }}
+	</div>
 </section>
   {{ template "_internal/pagination.html" . }}
 

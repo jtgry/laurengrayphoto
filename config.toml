@@ -48,10 +48,30 @@ notAlternative = true
   weight = 3
   url = "/portfolio/"
 
-  [[menu.main]]
+[[menu.main]]
   name = "Journal"
   weight = 5
   url = "/journal/"
+
+[[menu.footer]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.footer]]
+  name = "Message"
+  weight = 2
+  url = "/inquiries/"
+
+[[menu.footer]]
+  name = "Facebook"
+  weight = 3
+  url = "https://www.facebook.com/Lauren-Gray-Photography-353043012125190/"
+
+[[menu.footer]]
+  name = "Instagram"
+  weight = 4
+  url = "https://www.instagram.com/laurenagray_/"
 
 [related]
 threshold = 80

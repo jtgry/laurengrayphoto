@@ -1,7 +1,11 @@
 <footer class="site-footer" role="contentinfo">
-
-    <p class="site-footer__copyright">
-        &copy; {{ now.Format "2006" }} &middot; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    </p>
-
+	<div class="container">
+		<h3>{{ .Site.Title }}</h3>
+		<hr />
+		<ul>
+			{{ range .Site.Menus.footer.ByWeight }}
+				<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</div>
 </footer>

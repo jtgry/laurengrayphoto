@@ -1,77 +1,36 @@
-
 .site-footer{
   width: 100%;
   float: left;
   background: $color-white;
-  color: $color-brand;
-}
-.social-bar{
-  background: $color-brand;
-  width: 100%;
+  color: $color-brand-alt;
   text-align: center;
-  padding: $spacing-unit / 1.5 0;
-  line-height: 0;
-
-}
-.social-item-container{
+  padding: $spacing-unit * 2 0;
+  h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: $spacing-unit / 2;
+  }
+  hr{
+    max-width: 2em;
+    height: .3em;
+    background: $color-brand-alt;
+    margin-bottom: $spacing-unit / 3;
+  } 
+  ul{
   margin: 0;
-}
-.social-item{
-  display: inline-block;
-  text-transform: uppercase;
-  margin: 0 1em;
-}
-.social-item a{
-  font-family: $alt-font-family;
-  color: $color-white;
-  font-weight: 700;
-  font-size: .7rem;
-  letter-spacing: .2em;
-  padding: $spacing-unit / 4;
-}
-.footer-content{
-  width: 88%;
-  padding: $spacing-unit * 2 6%;
-  height: auto;
-  display: inline-block;
-}
-.footer-col{
-  @include column(1/4);
-  @media (max-width: $tablet) {
-    @include stack();
+    li{
+      display: inline-block;
+      margin: 0;
+      a{
+        font-size: .7rem;
+        font-weight: 600;
+        margin: .1em;
+        padding: 2em .5em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: $color-brand-alt;
+      }
+    }
   }
-  address{
-    color: $color-white;
-    font-family: $alt-font-family;
-    font-size: .7rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    line-height: 2.2;
-  }
-  li{
-    color: $color-white;
-    font-family: $alt-font-family;
-    font-size: .7rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    list-style: none;
-  }
-}
-h4.footer-header{
-  text-transform: uppercase;
-  color: $color-off-white;
-  letter-spacing: .2rem;
-  font-size: .9rem;
-  margin-bottom: $spacing-unit / 4;
-}
-a.footer-title{
-  color: $color-white;
-  text-transform: uppercase;
-  font-family: $header-font-family;
-  letter-spacing: .9em;
-  text-decoration: none;
-}
-.footer-logo{
-  height: 8em;
-  width: auto;
 }

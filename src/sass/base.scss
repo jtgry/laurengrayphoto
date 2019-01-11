@@ -64,20 +64,20 @@ h6{
 }
 p{
   font-family: $base-font-family;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: $color-black;
   letter-spacing: -.02em;
 }
 li,ol{
     font-family: $base-font-family;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: $color-black;
     letter-spacing: -.02em;
     margin-left: -1rem;
     margin-bottom: $spacing-unit / 4;
 }
 strong, b{
-  color: $color-brand-alt;
+  color: $color-brand;
 }
 .page-content p:first-of-type:first-letter {
   font-family: $base-font-family;
