@@ -40,6 +40,8 @@ blocks:
     that first heartbeat, to feeling those first tiny kicks, this is a time that you
     will never forget. This precious time passes so quickly, so let''s take the time
     to capture all of its wonder and beauty! '
+  button_text: Portfolio
+  button_url: laurenagray.com/portfolio/seniors/
 - template: block-image
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
