@@ -4,7 +4,7 @@ image: "/uploads/DSC_0483.jpeg"
 date: ''
 
 ---
-Hello Friends! My name is **Lauren Gray**! I am the wife to Tyler Gray, and expectant mom to our first little one, John Wylam. We also have two fur babies, Fred and Eleanor.
+Hello Friends, my name is **Lauren Gray**! I am the wife to Tyler Gray, and expectant mom to our first little one, John Wylam. We also have two fur babies, Fred and Eleanor.
 
 I love to **create**, and I am drawn to to all things beautiful. I love music, baking, decorating, designing, art etc.. so photography was a pretty natural step. I have always loved showcasing beauty through photography and it has been a true passion of mine since I was a kid. I just never dreamed that the Lord would open the opportunity to turn it into a career, but I am so happy that He did!
 
