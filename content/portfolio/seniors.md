@@ -18,8 +18,12 @@ gallery:
 - "/uploads/_DSC0422.jpg"
 - "/uploads/_DSC0953-2.jpg"
 - "/uploads/_DSC0848.jpg"
-- "/uploads/DSC_0302.jpg"
+- "/uploads/DSC_0287.jpg"
+- "/uploads/DSC_0285.jpg"
+- "/uploads/DSC_0302-1.jpg"
 - "/uploads/DSC_0116.jpg"
+- "/uploads/DSC_0116-1.jpg"
+- "/uploads/DSC_0111.jpg"
 - "/uploads/DSC_0172.jpg"
 
 ---
