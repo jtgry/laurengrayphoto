@@ -33,20 +33,15 @@ blocks:
     help your business grow and showcase all of the things that makes you great!
   image: "/uploads/_DSC0851.jpg"
 - template: block-image
+  heading: Maternity
+  image: "/uploads/DSC_0481-1.jpg"
+- template: block-image
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
   content: 'There are these moments in life; Moments that are so fleeting and so precious.
     We want to capture them in our hearts forever and never let them go. I want to
     help you capture your precious moments, and help you cherish that time in your
     life for years and years to come. '
-  button_url: "/test/"
-  button_text: Learn More
-- template: block-cta
-  heading: 'Business '
-  image: "/uploads/_DSC0786-1.jpg"
-  content: Do you need new headshots to market your business? Need photos of your
-    products for social media and promotion? Well I can help! Lets work together to
-    help your business grow and showcase all of the things that makes you great!
   button_url: "/test/"
   button_text: Learn More
 
