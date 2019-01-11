@@ -34,7 +34,7 @@ blocks:
   image: "/uploads/_DSC0851.jpg"
 - template: block-image
   heading: Maternity
-  image: "/uploads/DSC_0742.jpg"
+  image: "/uploads/DSC_0550.jpg"
   content: really cool stuff
 - template: block-image
   heading: Lifestyle
