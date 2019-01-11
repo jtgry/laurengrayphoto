@@ -10,7 +10,7 @@ blocks:
   content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
     special moments so that you can cherish them forever!
 - template: block-image
-  heading: Senior Sessions
+  heading: Seniors
   image: "/uploads/DSC_0996.jpg"
   content: 'The time is finally here. You are a senior. This is one of the most exciting
     times of your life, and that is what senior sessions are all about, celebrating
