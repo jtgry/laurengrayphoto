@@ -16,8 +16,8 @@ blocks:
     times of your life, and that is what senior sessions are all about, celebrating
     YOU! This year will fly by so let''s take a moment to capture it! Let your personality
     shine and let''s get creative! '
-  button_url: "/test/"
-  button_text: Learn More
+  button_url: ''
+  button_text: ''
 - template: block-image
   heading: Kids & Families
   image: "/uploads/DSC_1347-2-1.jpg"
