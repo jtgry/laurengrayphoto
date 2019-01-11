@@ -40,7 +40,7 @@ blocks:
     that first heartbeat, to feeling those first tiny kicks, this is a time that you
     will never forget. This precious time passes so quickly, so let''s take the time
     to capture all of its wonder and beauty! '
-  button_text: Portfolio
+  button_text: Gallery
   button_url: "/portfolio/maternity/"
 - template: block-image
   heading: Lifestyle
