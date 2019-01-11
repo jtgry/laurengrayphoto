@@ -49,7 +49,7 @@ blocks:
     We want to hold them in our hearts forever and never let them go. I want to help
     you capture your precious moments, and help you cherish that time in your life
     for years and years to come. '
-  button_url: "/test/"
-  button_text: Learn More
+  button_url: ''
+  button_text: ''
 
 ---
