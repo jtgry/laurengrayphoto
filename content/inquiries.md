@@ -1,6 +1,6 @@
 ---
 title: Inquiries
-image: "/uploads/header.jpg"
+image: "/uploads/DSC_0153.jpg"
 type: page
 layout: contact
 date: ''
