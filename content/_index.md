@@ -35,7 +35,11 @@ blocks:
 - template: block-image
   heading: Maternity
   image: "/uploads/DSC_0550.jpg"
-  content: really cool stuff
+  content: 'Your life is about to change forever. Welcoming a little one into the
+    world is one of the most exciting  times you will ever experience! From hearing
+    that first heartbeat, to feeling those first tiny kicks, this is a time that you
+    will never forget. This precious time passes so quickly, so let''s take the time
+    to capture all of its wonder and beauty! '
 - template: block-image
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
