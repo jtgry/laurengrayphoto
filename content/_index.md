@@ -40,9 +40,9 @@ blocks:
   heading: Lifestyle
   image: "/uploads/_DSC1144-2-2.jpg"
   content: 'There are these moments in life; Moments that are so fleeting and so precious.
-    We want to capture them in our hearts forever and never let them go. I want to
-    help you capture your precious moments, and help you cherish that time in your
-    life for years and years to come. '
+    We want to hold them in our hearts forever and never let them go. I want to help
+    you capture your precious moments, and help you cherish that time in your life
+    for years and years to come. '
   button_url: "/test/"
   button_text: Learn More
 
