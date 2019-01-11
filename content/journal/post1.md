@@ -5,7 +5,7 @@ image: "/uploads/DSC_0959-1.jpg"
 ---
 Savannah's senior photos were so much fun! This girl has the best bubbly & fun personality so we just had to capture that in her session!
 
-**Locations:** Her home, Downtown Wetumpka, AL
+**Locations:** Wetumpka, AL
 
 ![](/uploads/DSC_0913-1.jpg)
 
