@@ -7,7 +7,7 @@
 {{ template "_internal/google_analytics.html" . }}
 
 {{ template "_internal/opengraph.html" . }}
-{{ with .Site.Params.image }}<meta property="og:image" content="{{ . }}" />{{ end }}
+{{ with .Site.Params.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
 {{ with .Site.Params.title }}<meta property="og:title" content="{{ . }}" />{{ end }}
 
 {{ template "_internal/twitter_cards.html" . }}
