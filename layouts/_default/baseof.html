@@ -11,6 +11,8 @@
 
     {{- block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end -}}
 
+    {{ template "_internal/google_analytics_async.html" . }}
+
   </head>
   <body id="page" class="page">
       
