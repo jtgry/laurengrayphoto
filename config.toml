@@ -13,6 +13,8 @@ description = "Hi, my name is Lauren Gray, I love being behind the lens, capturi
 image = "/uploads/DSC_0996.jpg"
 title = "Lauren Gray Photography"
 
+googleAnaylitcs = "UA-132724385-1"
+
 # add redirects/headers
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
