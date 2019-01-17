@@ -7,13 +7,15 @@ disableAliases = true
 
 assetDir= "static"
 
+googleAnaylitcs = "UA-132724385-1"
+
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
 description = "Hi, my name is Lauren Gray, I love being behind the lens, capturing special moments so that you can cherish them forever!"
 image = "/images/website.jpg"
 title = "Lauren Gray Photography"
 
-googleAnaylitcs = "UA-132724385-1"
+
 
 # add redirects/headers
 [outputs]
