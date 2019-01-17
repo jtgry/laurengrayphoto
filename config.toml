@@ -9,6 +9,9 @@ assetDir= "static"
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
+description = "Hi, my name is Lauren Gray, I love being behind the lens, capturing special moments so that you can cherish them forever!"
+image = "/uploads/DSC_0996.jpg"
+title = "Lauren Gray Photography"
 
 # add redirects/headers
 [outputs]
