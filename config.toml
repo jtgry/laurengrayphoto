@@ -5,7 +5,7 @@ title = "Lauren Gray Photography"
 enableRobotsTXT = true
 disableAliases = true
 
-assetDir= "static"
+assetDir = "static"
 
 googleAnaylitcs = "UA-132724385-1"
 
