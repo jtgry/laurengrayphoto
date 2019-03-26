@@ -28,6 +28,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/portfolio/business-1.md
 - content/portfolio/kids-and-families.md
 - content/portfolio/maternity-birth.md
 - content/portfolio/lifestyle.md
