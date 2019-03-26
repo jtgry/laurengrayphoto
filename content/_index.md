@@ -32,7 +32,7 @@ blocks:
   button_text: ''
 - template: block-image
   heading: Kids & Families
-  image: "/uploads/DSC_1347-2-1.jpg"
+  image: "/uploads/DSC_1290-2.jpg"
   content: 'Each family member is unique. I love capturing the individual personalities
     of each family as they enjoy time together! I want to capture YOU, being the amazing
     family that you are! '
