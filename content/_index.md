@@ -51,5 +51,8 @@ blocks:
     for years and years to come. '
   button_url: ''
   button_text: ''
+- template: block-image
+  heading: Headshots
+  image: "/uploads/DSC_0996.jpg"
 
 ---
