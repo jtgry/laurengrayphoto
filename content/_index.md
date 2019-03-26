@@ -28,10 +28,10 @@ blocks:
   button_text: ''
 - template: block-image
   heading: Business
-  content: Do you need new headshots to market your business? Need photos of your
-    products for social media and promotion? Well I can help! Lets work together to
-    help your business grow and showcase all of the things that makes you great!
-  image: "/uploads/_DSC0851.jpg"
+  content: Would you like help marketing your business? Need photos of your products
+    for social media and promotion? Well I can help! Lets work together to help your
+    business grow and showcase all of the things that makes you great!
+  image: "/uploads/DSC_3509.jpg"
 - template: block-image
   heading: Maternity
   image: "/uploads/DSC_0550.jpg"
