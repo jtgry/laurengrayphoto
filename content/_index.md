@@ -10,6 +10,18 @@ blocks:
   content: Hi, my name is **Lauren Gray**, I love being behind the lens, capturing
     special moments so that you can cherish them forever!
 - template: block-image
+  heading: Headshots
+  image: "/uploads/DSC_0996.jpg"
+- template: block-image
+  heading: Business
+  content: Would you like help marketing your business? Need photos of your products
+    for social media and promotion? Well I can help! Lets work together to help your
+    business grow and showcase all of the things that makes you great!
+  image: "/uploads/DSC_3509.jpg"
+- template: block-image
+  heading: Couples
+  image: "/uploads/DSC_4863.jpg"
+- template: block-image
   heading: Seniors
   image: "/uploads/_DSC0587.jpg"
   content: 'The time is finally here. You are a senior. This is one of the most exciting
@@ -26,12 +38,6 @@ blocks:
     family that you are! '
   button_url: ''
   button_text: ''
-- template: block-image
-  heading: Business
-  content: Would you like help marketing your business? Need photos of your products
-    for social media and promotion? Well I can help! Lets work together to help your
-    business grow and showcase all of the things that makes you great!
-  image: "/uploads/DSC_3509.jpg"
 - template: block-image
   heading: Maternity
   image: "/uploads/DSC_0550.jpg"
@@ -51,8 +57,5 @@ blocks:
     for years and years to come. '
   button_url: ''
   button_text: ''
-- template: block-image
-  heading: Headshots
-  image: "/uploads/DSC_0996.jpg"
 
 ---
