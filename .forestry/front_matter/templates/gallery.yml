@@ -1,7 +1,6 @@
 ---
 label: Gallery
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -29,7 +28,7 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/portfolio/business.md
-- content/portfolio/lifestyle.md
-- content/portfolio/maternity-birth.md
 - content/portfolio/kids-and-families.md
+- content/portfolio/maternity-birth.md
+- content/portfolio/lifestyle.md
+- content/portfolio/business.md
